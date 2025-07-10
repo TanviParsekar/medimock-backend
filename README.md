@@ -1,4 +1,3 @@
-````md
 # MediMock - Backend
 
 This is the **backend** for MediMock, a mock AI-based symptom checker built with **Node.js**, **Express**, **TypeScript**, **Prisma**, and **PostgreSQL**.
@@ -36,8 +35,6 @@ This is the **backend** for MediMock, a mock AI-based symptom checker built with
    git clone https://github.com/your-username/MediMock.git
    cd MediMock
    ```
-````
-
 2. Install dependencies:
    ```bash
    npm install
@@ -53,12 +50,9 @@ This is the **backend** for MediMock, a mock AI-based symptom checker built with
    npx prisma generate
    ```
 5. Run DB Migrations:
-
    ```bash
    npx prisma migrate dev --name init
-
    ```
-
 6. Start the server:
    ```bash
    npm run dev
